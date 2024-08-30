@@ -3,6 +3,7 @@
 This repository contains resources for training and evaluating a liveness detection model. 
 The primary components include Jupyter notebooks for experimentation, model files, and a script for  webcam integration.
 
+[Report for the challenge](https://github.com/spachec0/livenessDetection/blob/master/TC_AppSec_Biometrics_report.pdf)
 
 ## Directory Structure
 
@@ -18,6 +19,9 @@ The primary components include Jupyter notebooks for experimentation, model file
 - `requirements.txt`: Python package dependencies required for the project.
 - `vgg19_msu_categorical.keras`: Keras model file for VGG19 trained on the MSU dataset.
 - `vgg19_msu_categorical_robust.keras`: Keras model file for a robust VGG19 model trained with adversarial defenses (adversarial training).
+- `TC_AppSec_Biometrics_report.pdf`: Report for the challenge.
+- `images`: Util images 
+
 
 ## Usage 
 
