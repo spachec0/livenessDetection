@@ -15,7 +15,7 @@ The primary components include Jupyter notebooks for experimentation, model file
 - `trainHistory`: Training history logs for the models.
 - `adversarial_batches`: Directory containing adversarially perturbed images for training and evaluation.
 - `attacks`: Directory containing different types of adversarial attacks used in experiments.
-- `face_detector`: Code and resources for detecting faces in images.
+- `face_detector`: Resources for detecting faces in images.
 - `requirements.txt`: Python package dependencies required for the project.
 - `vgg19_msu_categorical.keras`: Keras model file for VGG19 trained on the MSU dataset.
 - `vgg19_msu_categorical_robust.keras`: Keras model file for a robust VGG19 model trained with adversarial defenses (adversarial training).
