@@ -57,7 +57,7 @@ python webcam_msu.py -m vgg19_msu_categorical_robust.keras
 
 ## Download dataset used in notebooks
 
-To use the dataset in notebookes, download dataset from the following url and put into dataset/data folder: 
+To use the dataset used in notebooks, download data from the following url and put into dataset/data folder: 
 
 - https://drive.google.com/drive/folders/10dJkTgo8oozNsJRainJt4hULyqTt8J5L
 
