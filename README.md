@@ -28,23 +28,19 @@ You can find the report for the report for the challenge [here](https://github.c
 
 ### To test model
 
+Clone repository:
 ```
 git clone https://github.com/spachec0/livenessDetection
 ```
-Change to downloaded directory
-
+Change to downloaded directory and install requirements with: 
 ```
 pip install -r requirements.txt
 ```
-
-To test liveness model with webcam
-
+To test liveness model with webcam:
 ```
 python webcam_msu.py -m vgg19_msu_categorical.keras
 ```
-
-To test robustness liveness model with webcam
-
+To test robustness liveness model with webcam:
 ```
 python webcam_msu.py -m vgg19_msu_categorical_robust.keras
 ```
