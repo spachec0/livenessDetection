@@ -10,7 +10,6 @@ The primary components include Jupyter notebooks for experimentation, model file
 - `train_msu_cat.ipynb`: Jupyter notebook for training the VGG19 model on the MSU dataset.
 - `adv_train_msu.ipynb`: Jupyter notebook for training with adversarial examples on the MSU dataset.
 - `webcam_msu.py`: Script for running liveness detection using a webcam.
-- `webcam_msu_robust.py`: Script for running liveness detection with the robust model using a webcam.
 - `dataset`: Directory containing the MSU MFSD dataset for liveness detection.
 - `trainHistory`: Training history logs for the models.
 - `adversarial_batches`: Directory containing adversarially perturbed images for training and evaluation.
@@ -19,3 +18,26 @@ The primary components include Jupyter notebooks for experimentation, model file
 - `requirements.txt`: Python package dependencies required for the project.
 - `vgg19_msu_categorical.keras`: Keras model file for VGG19 trained on the MSU dataset with categorical cross-entropy.
 - `vgg19_msu_categorical_robust.keras`: Keras model file for a robust VGG19 model trained with adversarial defenses.
+
+### Usage 
+
+```
+git clone https://github.com/spachec0/livenessDetection
+```
+Change to downloaded directory
+
+```
+pip install -r requirements.txt
+```
+
+To test liveness model with webcam
+
+```
+python webcam_msu.py -m vgg19_msu_categorical.keras
+```
+
+To test robustness liveness model with webcam
+
+```
+python webcam_msu.py -m vgg19_msu_categorical_robust.keras
+```
