@@ -16,10 +16,13 @@ The primary components include Jupyter notebooks for experimentation, model file
 - `attacks`: Directory containing different types of adversarial attacks used in experiments.
 - `face_detector`: Code and resources for detecting faces in images.
 - `requirements.txt`: Python package dependencies required for the project.
-- `vgg19_msu_categorical.keras`: Keras model file for VGG19 trained on the MSU dataset with categorical cross-entropy.
-- `vgg19_msu_categorical_robust.keras`: Keras model file for a robust VGG19 model trained with adversarial defenses.
+- `vgg19_msu_categorical.keras`: Keras model file for VGG19 trained on the MSU dataset.
+- `vgg19_msu_categorical_robust.keras`: Keras model file for a robust VGG19 model trained with adversarial defenses (adversarial training).
 
-### Usage 
+## Usage 
+
+
+### To test model
 
 ```
 git clone https://github.com/spachec0/livenessDetection
@@ -41,3 +44,16 @@ To test robustness liveness model with webcam
 ```
 python webcam_msu.py -m vgg19_msu_categorical_robust.keras
 ```
+
+
+![alt text](https://raw.githubusercontent.com/spachec0/livenessDetection/master/images/real.png)
+
+![alt text](https://raw.githubusercontent.com/spachec0/livenessDetection/master/images/spoof.png)
+
+
+## Download dataset used in notebooks
+
+To use the dataset in notebookes, download dataset from the following url and put into dataset/data folder: 
+
+- https://drive.google.com/drive/folders/10dJkTgo8oozNsJRainJt4hULyqTt8J5L
+
