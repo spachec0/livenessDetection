@@ -40,7 +40,7 @@ To test liveness model with webcam:
 ```
 python webcam_msu.py -m vgg19_msu_categorical.keras
 ```
-To test robustness liveness model with webcam:
+To test robust liveness model with webcam:
 ```
 python webcam_msu.py -m vgg19_msu_categorical_robust.keras
 ```
