@@ -3,7 +3,7 @@
 This repository contains resources for training and evaluating a liveness detection model. 
 The primary components include Jupyter notebooks for experimentation, model files, and a script for  webcam integration.
 
-You can find the report for the report for the challenge [here](https://github.com/spachec0/livenessDetection/blob/master/TC_AppSec_Biometrics_report.pdf).
+You can find the report for the challenge [here](https://github.com/spachec0/livenessDetection/blob/master/TC_AppSec_Biometrics_report.pdf).
 
 ## Directory Structure
 
